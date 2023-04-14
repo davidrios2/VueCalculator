@@ -55,7 +55,7 @@ export default {
     },
 
     equal() {
-      axios.post('http://127.0.0.1:8000/tokenizerSolverCalculator', {
+      axios.post('https://lexcalculator-1-o8855159.deta.app/tokenizerSolverCalculator', {
         expression: this.current
       }, {
         headers: {
